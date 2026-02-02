@@ -4,11 +4,11 @@
 const siteConfig = {
     // Company Information
     company: {
-        name: "CreativeHub",
+        name: "Mobiflex",
         tagline: "Your partner in creative excellence and digital innovation",
-        email: "hello@creativehub.com",
-        phone: "+1 (555) 123-4567",
-        address: "123 Creative Street, Design City, DC 12345",
+        email: "mobiflex42@gmail.com",
+        phone: "+256 787155257",
+        address: "Seeta",
         hours: {
             weekdays: "Mon - Fri: 9:00 AM - 6:00 PM",
             weekend: "Sat: 10:00 AM - 4:00 PM"
@@ -17,10 +17,10 @@ const siteConfig = {
 
     // Social Media Links
     social: {
-        facebook: "https://facebook.com/creativehub",
-        twitter: "https://twitter.com/creativehub",
-        linkedin: "https://linkedin.com/company/creativehub",
-        instagram: "https://instagram.com/creativehub"
+        facebook: "https://facebook.com/mobiflex",
+        twitter: "https://twitter.com/mobiflex",
+        linkedin: "https://linkedin.com/company/mobiflex",
+        instagram: "https://instagram.com/mobiflex"
     },
 
     // Services
@@ -159,8 +159,8 @@ const siteConfig = {
 
     // Meta Information
     meta: {
-        title: "Design & Web Solutions - Creative Services Agency",
-        description: "CreativeHub provides professional graphics design, advertisement, and web development services.",
+        title: "mobiflex.online",
+        description: "mobiflex provides professional graphics design, advertisement, and web development services.",
         keywords: "graphics design, advertisement, web development, creative agency, web design",
         author: "CreativeHub Team",
         language: "en"
@@ -181,3 +181,4 @@ if (typeof window !== 'undefined') {
 if (typeof module !== 'undefined' && module.exports) {
     module.exports = siteConfig;
 } 
+
