@@ -177,7 +177,7 @@ contactForm.addEventListener('submit', (e) => {
 
     } else {
         // Fallback: open user's email client with prefilled message
-        const mailto = `mailto:${window.siteConfig?.company?.email || 'mobiflex@gmail.com'}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(`Name: ${name}\nEmail: ${email}\n\n${message}`)}`;
+        const mailto = `mailto:${window.siteConfig?.company?.email || 'mobiflex42@gmail.com'}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(`Name: ${name}\nEmail: ${email}\n\n${message}`)}`;
         window.location.href = mailto;
         submitBtn.textContent = originalText;
         submitBtn.disabled = false;
@@ -357,4 +357,5 @@ document.addEventListener('DOMContentLoaded', () => {
     logPageView();
     console.log('Website loaded successfully!');
 });
+
 
