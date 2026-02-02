@@ -114,7 +114,7 @@ const siteConfig = {
         projects: 500,
         clients: 200,
         team: 50,
-        experience: 10
+        experience: 5
     },
 
     // Navigation Links
@@ -181,4 +181,5 @@ if (typeof window !== 'undefined') {
 if (typeof module !== 'undefined' && module.exports) {
     module.exports = siteConfig;
 } 
+
 
