@@ -149,7 +149,7 @@ contactForm.addEventListener('submit', (e) => {
         formData.append('subject', subject);
         formData.append('message', message);
         // Optional: include reply-to so Formspree/receiver can reply
-        formData.append('_replyto', 'mobiflex@gmail.com');
+        formData.append('_replyto', 'mobiflex42@gmail.com');
 
         fetch(endpoint, {
             method: 'POST',
@@ -357,3 +357,4 @@ document.addEventListener('DOMContentLoaded', () => {
     logPageView();
     console.log('Website loaded successfully!');
 });
+
