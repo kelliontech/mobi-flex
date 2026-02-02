@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobiflex.online</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <i class="fas fa-palette"></i>
+                    <span>Mobi flex</span>
+                </div>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>Transform Your Ideas Into Reality</h1>
+            <p>We provide exceptional graphics design, strategic advertisements, and cutting-edge web development solutions</p>
+            <a href="#contact" class="btn btn-primary">Get Started</a>
+        </div>
+        <div class="hero-decoration"></div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <h2 class="section-title">Our Services</h2>
+            <p class="section-subtitle">Comprehensive creative solutions tailored to your business needs</p>
+            
+            <div class="services-grid">
+                <!-- Graphics Design -->
+                <div class="service-card">
+                    <div class="service-gif">
+                        <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNXd3ejZzamE4Y2s4ZzN1Z2tvMXdua2JyeG9kNWV2N216dndjZDk5ZiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/13VLdHIQRb8zQc/giphy.gif" alt="Graphics Design" class="service-animation" loading="lazy" referrerpolicy="no-referrer" crossorigin="anonymous" onerror="this.onerror=null;this.src='Mflex.jpeg';">
+                    </div>
+                    <h3>Graphics Design</h3>
+                    <p>Create stunning visual designs that captivate your audience and elevate your brand identity with our expert graphic designers.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Logo Design</li>
+                        <li><i class="fas fa-check"></i> Branding & Identity</li>
+                        <li><i class="fas fa-check"></i> Print Materials</li>
+                        <li><i class="fas fa-check"></i> Packaging Design</li>
+                    </ul>
+                </div>
+
+                <!-- Advertisement -->
+                <div class="service-card">
+                    <div class="service-gif">
+                        <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExN3FzenJobGtwdGl5YWwwdHlrdzg3em5zNnVucHJudG5iM2NlM2NxOCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3o7bu7wtT19WfBAt0Y/giphy.gif" alt="Advertisement" class="service-animation" loading="lazy" referrerpolicy="no-referrer" crossorigin="anonymous" onerror="this.onerror=null;this.src='Mflex.jpeg';">
+                    </div>
+                    <h3>Advertisement</h3>
+                    <p>Strategic advertising campaigns that reach your target audience and drive meaningful results for your business growth.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Digital Marketing</li>
+                        <li><i class="fas fa-check"></i> Social Media Ads</li>
+                        <li><i class="fas fa-check"></i> Campaign Strategy</li>
+                        <li><i class="fas fa-check"></i> Content Creation</li>
+                    </ul>
+                </div>
+
+                <!-- Web Development -->
+                <div class="service-card">
+                    <div class="service-gif">
+                        <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExdWQ1Ym11YXRoenFuNTdldGVpaWd3ZmNxdHhnbmZwMzFmenQ3andrZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/2ikwIgNrmPZICNmRyX/giphy.gif" alt="Web Development" class="service-animation" loading="lazy" referrerpolicy="no-referrer" crossorigin="anonymous" onerror="this.onerror=null;this.src='Mflex.jpeg';">
+                    </div>
+                    <h3>Web Development</h3>
+                    <p>Build powerful, responsive websites and applications that deliver exceptional user experiences and achieve your goals.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Custom Websites</li>
+                        <li><i class="fas fa-check"></i> E-Commerce Solutions</li>
+                        <li><i class="fas fa-check"></i> Web Applications</li>
+                        <li><i class="fas fa-check"></i> SEO Optimization</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <h2 class="section-title">Our Portfolio</h2>
+            <p class="section-subtitle">Showcase of our recent projects and successful campaigns</p>
+            
+            <div class="portfolio-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="design">Design</button>
+                <button class="filter-btn" data-filter="web">Web</button>
+                <button class="filter-btn" data-filter="ads">Ads</button>
+            </div>
+
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-category="design">
+                    <div class="portfolio-image">
+                        <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExdWRsbTZiYTlzZWVmZHh4M2pmOHp2N3hyZm4zaW0xa3h5aWIzOXdhZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/f8bAXljTeIfLLi6JVw/giphy.gif" alt="Brand Identity Package" class="portfolio-gif" loading="lazy" referrerpolicy="no-referrer" crossorigin="anonymous" onerror="this.onerror=null;this.src='Mflex.jpeg';">
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Brand Identity Package</h3>
+                        <p>Complete branding solution for a tech startup</p>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="web">
+                    <div class="portfolio-image">
+                        <img src="https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3MXIycHB4cno2aGdtazh4Nmc1aWg4bGZ3b2t4bWN3MDZ4M2d2OGhiZyZlcD12MV9naWZzX3JlbGF0ZWQmY3Q9Zw/AD9sRPAF4lKr7wQYgD/giphy.gif" alt="E-Commerce Platform" class="portfolio-gif" loading="lazy" referrerpolicy="no-referrer" crossorigin="anonymous" onerror="this.onerror=null;this.src='Mflex.jpeg';">
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>E-Commerce Platform</h3>
+                        <p>Responsive online store with payment integration</p>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="ads">
+                    <div class="portfolio-image">
+                        <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZDV2cWh1MGh1OXp5azNvdWxlNjgyZ3kxcXNqdzg3eGQzNG10anlyZCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/XyJPNKBskIDWR3Md8K/giphy.gif" alt="Social Media Campaign" class="portfolio-gif" loading="lazy" referrerpolicy="no-referrer" crossorigin="anonymous" onerror="this.onerror=null;this.src='Mflex.jpeg';">
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Social Media Campaign</h3>
+                        <p>Multi-platform advertising campaign for lifestyle brand</p>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="design">
+                    <div class="portfolio-image">
+                        <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExN214ajNmZHpqeG0yOTkxbjZtcW5xeWJlM2t0eWZqaGlpdDcxOTZpYiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/wEhdsAyB3Ijza4AL7L/giphy.gif" alt="Packaging Design" class="portfolio-gif" loading="lazy" referrerpolicy="no-referrer" crossorigin="anonymous" onerror="this.onerror=null;this.src='Mflex.jpeg';">
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Packaging Design</h3>
+                        <p>Product packaging design</p>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="web">
+                    <div class="portfolio-image">
+                        <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcXdjMWRlbmptaG1vNHJvaDdyZnZ1eDd4aHp0aHZkbXV1M3F6a2RoeiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/ZgTR3UQ9XAWDvqy9jv/giphy.gif" alt="Corporate Website" class="portfolio-gif" loading="lazy" referrerpolicy="no-referrer" crossorigin="anonymous" onerror="this.onerror=null;this.src='Mflex.jpeg';">
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Corporate Website</h3>
+                        <p>Professional website with CMS for management company</p>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="ads">
+                    <div class="portfolio-image">
+                        <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExd2RyajdtMTNpZTB1bjNyODM3Z3lqbXVnb2l1am1zeG5jamp3bHdxMCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/A4qEsr8Kb6mIE3v4AZ/giphy.gif" alt="Video Marketing" class="portfolio-gif" loading="lazy" referrerpolicy="no-referrer" crossorigin="anonymous" onerror="this.onerror=null;this.src='Mflex.jpeg';">
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Video Marketing</h3>
+                        <p>Promotional video and animation for retail business</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>About Us</h2>
+                    <p>Mobi Flex is a full-service creative agency dedicated to helping businesses succeed through innovative design, strategic marketing, and cutting-edge technology solutions.</p>
+                    <p>With a team of talented designers, developers, and strategists, we've delivered exceptional results for clients across various industries. Our commitment to excellence and creative innovation drives everything we do.</p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <h3>500+</h3>
+                            <p>Projects Completed</p>
+                        </div>
+                        <div class="stat">
+                            <h3>200+</h3>
+                            <p>Happy Clients</p>
+                        </div>
+                        <div class="stat">
+                            <h3>20+</h3>
+                            <p>Team Members</p>
+                        </div>
+                        <div class="stat">
+                            <h3>10+</h3>
+                            <p>Years Experience</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="Mflex.jpeg" alt="Creative Team" class="about-gif">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <h2>Ready to Start Your Project?</h2>
+            <p>Let's collaborate and bring your vision to life</p>
+            <a href="https://www.instagram.com/mobikics_sport/?hl=en" class="btn btn-secondary">Contact Us Today</a>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="section-subtitle">We'd love to hear about your project</p>
+
+            <div class="contact-wrapper">
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" placeholder="Project Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" rows="6" placeholder="Tell us about your project..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                    <div id="formMessage"></div>
+                </div>
+
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Address</h3>
+                            <p>Seeta</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h3>Phone</h3>
+                            <p>+256 777 911469</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <p>mobiflex@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h3>Business Hours</h3>
+                            <p>Mon - Fri: 9:00 AM - 6:00 PM<br>Sat: 10:00 AM - 4:00 PM</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>MobiFlex</h3>
+                    <p>Your partner in creative excellence and digital innovation.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#services">Graphics Design</a></li>
+                        <li><a href="#services">Advertisement</a></li>
+                        <li><a href="#services">Web Development</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Cookies Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026. MobiFlex All rights reserved. | Designed & Developed with <i class="fas fa-heart"></i></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
